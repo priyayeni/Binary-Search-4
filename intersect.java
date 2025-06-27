@@ -1,5 +1,5 @@
 // Time Complexity : n1logn2
-// Space Complexity : O(min(n1,n2))
+// Space Complexity : O(min(n1,n2)) for result list
 // n1 = nums1 array length n2 = nums2 array length
 /* Approach : The approach used in your intersect function involves first sorting both input arrays and then using two pointers to 
 traverse them. By comparing elements at the current positions of the pointers, the function identifies common elements and adds them 
